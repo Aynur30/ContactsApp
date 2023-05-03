@@ -1,0 +1,3 @@
+npx knex migrate:make add_phone_number_to_contacts_table
+
+npx knex migrate:latest

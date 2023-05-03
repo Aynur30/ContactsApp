@@ -1,0 +1,110 @@
+
+
+.Contacts {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 0;
+  }
+
+ .div{
+   display: flex;
+   align-items:center;
+ }
+  h1 {
+    text-align: center;
+  }
+  .Contact {
+    z-index: 1;
+    max-width: 500px;
+    height: 500px;
+    border: 2px solid #007bff;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+   
+  }
+  
+  .ad {
+     
+      align-items: flex-end;
+  }
+  li {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  input[type="text"]:focus {
+  
+    border-color: #007bff;
+  }
+  .one {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+ 
+  input {
+    display: block;
+  }
+  form {
+    align-items: center;
+  }
+
+
+  .gen{
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+
+  }
+  .s{
+    display: inline-block;
+    margin: 5px;
+  }
+  span{
+    color: black;
+  }
+
+  .addContacts{
+    align-content: center;
+  }
+
+  .error {
+    border: 2px solid red !important;
+  }
+  
